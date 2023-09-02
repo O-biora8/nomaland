@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+   color: #333333;
+   ;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 9.375rem 0 9.375rem;
+}
+
+
+.logo {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    font-size: 1rem;
+}
+
+.nav_cta {
+    width: 9.25rem;
+    height: 2.67rem;
+}
+
+.menu {
+    background: transparent;
+    border: none;
+}
+/* SMALL */
+
+@media screen and (min-width: 576px) {
+    .card1-2 {
+        display: nne;
+    }
+    
+
+    
+}
